@@ -1,0 +1,37 @@
+.main {
+  width: 400px ;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding: 20px;
+}
+
+#social .social_img {
+  padding: 0;
+  width: 24%;
+}
+
+h1 {
+	font-family: "LatoWebBold";
+	font-size: 40px;
+	font-style: bold;
+}
+
+p {
+	font-family: "LatoWebLight";
+	font-size: 16px;
+}
+
+/* unvisited link */
+a:link {
+    color: #61C17E;
+}
+
+/* visited link */
+a:visited {
+    color: #61C17E;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
