@@ -8,7 +8,7 @@
 
 
 deploy:
-	aws s3 sync ../annswebsite s3://amsamborski.com \
+	aws s3 sync ../website s3://amsamborski.com \
 		--exclude ".git/*"\
 		--exclude ".gitignore"\
 		--exclude "*.DS_STORE"\
